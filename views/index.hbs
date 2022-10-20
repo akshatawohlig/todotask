@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+    </script>
+</head>
+<body>
+    <h1>To-Do-List</h1>
+   
+    <ul id="items">
+{{tasks}} 
+     <li>Read Book      <button type="submit" name="complete">Complete</button>
+     <li>Cook Food      <button type="submit" name="complete">Complete</button><br>
+      <li>  {{tasks}}   <button type="submit" name="complete">Complete</button><br>
+    </ul>
+    
+    <form action=" " method="POST">
+        <input type="text" name="task">
+        <button type="submit">Add</button>
+    </form>
+</body>
+</html>
